@@ -19,7 +19,6 @@ $('#mobi').click(function() {
     $('.istv').css("display","none");
     $('.ismumbai').css("display", "none");
  $('.ismobile').slick({
-   lazyload:'ondemand',
     centerMode: false,
   slidesToShow: 1.6,
   dots: true,
