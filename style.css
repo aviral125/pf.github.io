@@ -136,3 +136,54 @@ li a {
 .ismumbai{
   display: none;
 }
+.cover--mob{
+
+    
+    overflow-x: hidden;
+  }
+  .cover--1--imagemob{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 39px;
+    height: 28px;
+
+  }
+  .mob-1{
+    margin-left: 30px;
+    
+    margin-top: 102px;
+    font-size: 24px;
+    font-weight: bold;
+      line-height: 1.42;
+      color: #363636;
+  }
+  .mob-2{
+    margin-left: 30px;
+
+    font-size: 32px;
+    line-height: 1.38;
+    color: #363636;
+    margin-right: 50px;
+  }
+  .mob-3{
+    margin-left: 30px;
+    margin-top:25px;
+    font-size: 18px;
+    line-height: 1.22;
+    margin-right: 50px;
+    color: #373737;
+  }
+  .mobile{
+    display: none;
+  }
+  .mobileno{
+    display: block;
+  }
+  @media only screen and (max-width: 768px) {
+    .mobile{
+      display: block;
+    }
+    .mobileno{
+      display: none;
+    }
+  }
